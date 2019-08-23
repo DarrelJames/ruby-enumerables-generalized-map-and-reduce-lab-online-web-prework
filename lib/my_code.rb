@@ -8,7 +8,7 @@ def map(array)
 new_array
 end
 
-def reduce(array, starting_point = 0)
+def reduce(array, starting_point = nil)
   if starting_point
     new = starting_point
     i = 0
